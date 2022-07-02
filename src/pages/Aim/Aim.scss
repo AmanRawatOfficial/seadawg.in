@@ -1,0 +1,101 @@
+.aim {
+    display: flex;
+
+    .water_mark_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    
+        position: fixed;
+
+        .water_mark_lines {
+            border: 2px solid #9ed4ff;
+            height: 300px;
+            width: 1px;
+        }
+
+        .water_mark {
+            font-weight: bold;
+            color: #9ed4ff;
+            margin: 100px 0;
+            font-size: 30px;
+        
+            transform: rotate(270deg);
+        }
+    }
+
+    .main_content {
+        margin-left: 80px;
+    }
+
+    .heading_container {
+        margin-left: 180px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 100px;
+        top: 160px;
+        width: 430px;
+        height: 430px;
+        border-radius: 50%;
+        background-color: #9ed4ff;
+        z-index: 0;
+        // overflow: hidden;
+
+        .heading_gimmick {
+            position: absolute;
+            height: 400px;
+            width: 200px;
+            background-color: black;
+            z-index: -1;
+            left: -120px;
+        }
+    }
+    
+    .heading {
+        background: #116cb7;
+        width: 400px;
+        height: 400px;
+        border: 10px solid #fbcc00;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        h2 {
+            font-size: 45px;
+            color: black;
+            text-align: center;
+        }
+    }
+    
+    .content {
+        background-color: #3ba7ff;
+        padding-top: 40px;
+        margin: 200px 400px 0 300px;
+        padding-bottom: 120px;
+    
+        p {
+            margin-top: 40px;
+            font-size: 2rem;
+            color: black;
+            padding: 0 60px;
+            text-align: justify;
+
+            .content_first {
+                color: inherit;
+                width: 70%;
+                margin-left: 300px;
+            }
+    
+            .content_second {
+                color: inherit;
+                margin-top: 30px;
+            }
+        }
+    }
+}
