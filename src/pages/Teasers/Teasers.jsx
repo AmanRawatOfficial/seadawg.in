@@ -2,6 +2,7 @@ import React from "react";
 
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
+import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa"
 import "./Teasers.scss";
 
 function Teasers() {
@@ -19,6 +20,10 @@ function Teasers() {
                     <br />
                     In the meantime, you may consider following us on social
                     media as well. We are even more regular out there.
+                    <br />
+                    <br />
+                    <FaFacebookSquare fill="#fbcc00" className="teaser_icon"/>
+                    <FaInstagramSquare fill="#fbcc00" className="teaser_icon"/>
                 </div>
             </CircularHeader>
         </div>

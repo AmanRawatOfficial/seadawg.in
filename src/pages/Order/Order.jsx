@@ -11,7 +11,7 @@ function Order() {
             <CircularHeader heading="CORPORATE ORDERS">
                 <div className="content_first">
                     If you are a company/ supplier looking for a bulk order,
-                    please contact us at corporate@dawg.in with the subject
+                    please contact us at <span className="highlight_yellow">corporate@dawg.in</span> with the subject
                     “bulk order enquiry”.
                     <br />
                     <br />
@@ -22,6 +22,9 @@ function Order() {
                     <br />
                     <br />
                     Download our updated corporate brochure by clicking below.
+                    <br />
+                    <br />
+                    <button>DOWNLOAD</button>
                 </div>
             </CircularHeader>
         </div>

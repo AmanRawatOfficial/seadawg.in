@@ -1,3 +1,20 @@
 .orders {
     display: flex;
+
+    .highlight_yellow {
+        color: #fbcc00;
+        font-weight: bold;
+    }
+
+    button {
+        border-color: gold;
+        border-radius: 14px;
+        width: 164px;
+        letter-spacing: 4px;
+        padding: 10px;
+        color: #fbcc00;
+        background-color: rgb(44, 6, 6);
+        font-weight: bold;
+        cursor: pointer;
+    }
 }
