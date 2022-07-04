@@ -63,6 +63,11 @@
             align-items: center;
             justify-content: space-around;
 
+            .link_shop {
+                padding-left: 73px !important;
+                padding-right: 73px !important;
+            }
+
             .link_teaser {
                 text-decoration: none;
                 font-family: inherit;
@@ -80,6 +85,7 @@
                     background-color: white;
                 }
             }
+            
 
             .link_second, .link_first {
 
