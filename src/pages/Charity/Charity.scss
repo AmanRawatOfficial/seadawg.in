@@ -1,5 +1,13 @@
 .charity {
     display: flex;
+
+    .content_first {
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
     
     button {
         border-color: gold;

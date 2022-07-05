@@ -39,12 +39,13 @@
             .nav_1 {
                 bottom: 25%;
                 transform: rotate(-122deg) translateY(-10rem);
-                z-index: 1;
+                z-index: 0;
             }
             .nav_2 {
                 bottom: 20%;
                 left: 10.5%;
                 transform: rotate(180deg) translateY(-10rem);
+                z-index: 1;
                 &:hover {
                     color: grey;
                     font-size: 1.9rem;
@@ -85,10 +86,9 @@
                     background-color: white;
                 }
             }
-            
 
-            .link_second, .link_first {
-
+            .link_second,
+            .link_first {
                 span {
                     color: rgb(255, 255, 255);
                     padding: 6px 60px;
@@ -100,7 +100,8 @@
                 }
             }
 
-            .link_second:hover, .link_first:hover {
+            .link_second:hover,
+            .link_first:hover {
                 background: transparent;
                 span {
                     background-color: transparent;

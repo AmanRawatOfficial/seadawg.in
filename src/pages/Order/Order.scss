@@ -6,6 +6,15 @@
         font-weight: bold;
     }
 
+    .content_first {
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     button {
         border-color: gold;
         border-radius: 14px;
@@ -16,5 +25,6 @@
         background-color: rgb(44, 6, 6);
         font-weight: bold;
         cursor: pointer;
+        text-align: center;
     }
 }

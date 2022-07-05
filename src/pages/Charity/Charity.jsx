@@ -25,7 +25,9 @@ function Charity() {
                     To see this year's agreement, click below.
                     <br />
                     <br />
-                    <button>DOWNLOAD</button>
+                    <div className="">
+                        <button>DOWNLOAD</button>
+                    </div>
                 </div>
             </CircularHeader>
         </div>

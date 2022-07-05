@@ -22,3 +22,15 @@
         transform: rotate(270deg);
     }
 }
+
+// Queries //
+
+@media (max-width: 376px) {
+    .water_mark_container {
+        width: 60px;
+
+        .water_mark_lines {
+            height: 200px;
+        }
+    }
+}

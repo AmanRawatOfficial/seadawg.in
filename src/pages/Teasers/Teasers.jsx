@@ -22,8 +22,10 @@ function Teasers() {
                     media as well. We are even more regular out there.
                     <br />
                     <br />
+                    <div className="teaser_icon_container">
                     <FaFacebookSquare fill="#fbcc00" className="teaser_icon"/>
                     <FaInstagramSquare fill="#fbcc00" className="teaser_icon"/>
+                    </div>
                 </div>
             </CircularHeader>
         </div>

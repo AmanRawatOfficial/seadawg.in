@@ -12,7 +12,7 @@ const Navs = ({ setOpen, navType }) => {
                     onClick={() => setOpen(false)}
                 />
 
-                <div className="heading">Our Story</div>
+                <div className="heading">{navType === "story" ? "Out Story" : navType === "blogs" ? "Blogs" : "Get In Touch"}</div>
                 <div className="links_div">
                     {/* for our story navs */}
                     {navType === "story" && (
