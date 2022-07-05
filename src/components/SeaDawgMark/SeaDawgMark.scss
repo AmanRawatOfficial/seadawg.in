@@ -25,6 +25,16 @@
 
 // Queries //
 
+@media (max-width: 595px) {
+    .water_mark_container {
+        width: 60px;
+
+        .water_mark_lines {
+            height: 200px;
+        }
+    }
+}
+
 @media (max-width: 376px) {
     .water_mark_container {
         width: 60px;

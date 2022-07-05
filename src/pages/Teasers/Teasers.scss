@@ -3,12 +3,11 @@
 
     .teaser_icon_container {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
     .teaser_icon {
-        margin-right: 20px;
         font-size: 44px;
         cursor: pointer;
     }
