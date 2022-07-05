@@ -7,8 +7,28 @@
         align-items: center;
     }
 
+    .teaser_icon_container .teaser_icon:nth-child(1) {
+        margin-left: 400px;
+    }
+
+    .teaser_icon_container .teaser_icon:nth-child(2) {
+        margin-right: 400px;
+    }
+
     .teaser_icon {
         font-size: 44px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 495px) {
+    .teasers {
+        .teaser_icon_container .teaser_icon:nth-child(1) {
+            margin-left: 0px;
+        }
+
+        .teaser_icon_container .teaser_icon:nth-child(2) {
+            margin-right: 0px;
+        }
     }
 }

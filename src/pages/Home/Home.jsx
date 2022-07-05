@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Navs from "../../components/Navs/Navs";
 import T from "../../components/t/T";
-import "./style.scss";
+import "./Home.scss";
 const Home = () => {
     const [open, setOpen] = useState(false);
     const [navType, setNavType] = useState("");
@@ -12,16 +12,28 @@ const Home = () => {
     // const nav1 = ['o', 'u', 'r', ' ', 's', 't', 'o', 'r', 'y']
 
     // Toggle animation for buttons (teasers, shop)
-    function mouseOverHandler() {
-        if (firstLink === " ") {
-            setSecondLink(" ");
-            setFirstLink("active_link");
+    function mouseOverFirstHandler() {
+        if (firstLink === " " && secondLink === "active_link") {
+            setFirstLink("active_link")
+            setSecondLink(" ")
         }
+    }
 
-        if (secondLink === " ") {
-            setFirstLink(" ");
-            setSecondLink("active_link");
-        }
+    function mouseOutFirstHandler() {
+        setSecondLink("active_link")
+        setFirstLink(" ")
+    }
+
+    function mouseOverSecondHandler() {
+       if (firstLink === " " && secondLink === "active_link" ) {
+           setSecondLink(" ")
+           setFirstLink("active_link")
+       }
+    }
+
+    function mouseOutSecondHandler() {
+        setFirstLink(" ")
+        setSecondLink("active_link")
     }
 
     return (
@@ -64,7 +76,8 @@ const Home = () => {
                 <div className="links">
                     <div className={`link link_first ${firstLink}`}>
                         <span
-                            onMouseOver={mouseOverHandler}
+                            onMouseOver={mouseOverFirstHandler}
+                            onMouseOut={mouseOutFirstHandler}
                             className="link_shop"
                         >
                             Shop
@@ -73,7 +86,8 @@ const Home = () => {
                     <div className={`link link_second ${secondLink}`}>
                         <Link className="link_teaser" to="/teasers">
                             <span
-                                onMouseOver={mouseOverHandler}
+                                onMouseOver={mouseOverSecondHandler}
+                                onMouseOut={mouseOutSecondHandler}
                                 className="link_teasers"
                             >
                                 Teasers

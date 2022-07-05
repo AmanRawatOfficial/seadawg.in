@@ -12,6 +12,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        
         // border: 1px solid red;
         .circle {
             width: 50rem;
@@ -77,37 +78,17 @@
             }
 
             // Links
-
             .active_link {
                 background-color: white;
-
                 span {
-                    color: black !important;
-                    background-color: white;
+                    color: black;
                 }
             }
 
-            .link_second,
-            .link_first {
-                span {
-                    color: rgb(255, 255, 255);
-                    padding: 6px 60px;
-                }
-
-                span:hover {
-                    background-color: black;
-                    color: white;
-                }
+            span {
+                padding: 6px 60px;
             }
 
-            .link_second:hover,
-            .link_first:hover {
-                background: transparent;
-                span {
-                    background-color: transparent;
-                    color: white !important;
-                }
-            }
             .link {
                 width: 20rem;
                 height: 4rem;
@@ -131,6 +112,14 @@
     .home {
         .home_wrapper {
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 468px) {
+    .home {
+        .home_wrapper {
+            transform: scale(.6);
         }
     }
 }
