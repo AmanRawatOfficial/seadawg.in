@@ -3,10 +3,12 @@ import React from "react";
 import "./Aim.scss";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
+import HomeButton from "../../components/HomeButton/HomeButton"
 
 function Aim() {
     return (
         <div className="aim">
+            <HomeButton />
             <SeaDawgMark />
             <CircularHeader heading="WHAT WE ARE TRYING TO DO">
                 <div className="content_first">
