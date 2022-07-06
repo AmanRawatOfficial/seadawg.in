@@ -3,16 +3,17 @@
 
     .teaser_icon_container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
 
     .teaser_icon_container .teaser_icon:nth-child(1) {
-        margin-left: 280px;
+        margin-right: 10px
+
     }
 
     .teaser_icon_container .teaser_icon:nth-child(2) {
-        margin-right: 280px;
+        margin-left: 10px;
     }
 
     .teaser_icon {
@@ -21,14 +22,38 @@
     }
 }
 
-@media (max-width: 495px) {
-    .teasers {
-        .teaser_icon_container .teaser_icon:nth-child(1) {
-            margin-left: 0px;
-        }
+// @media (max-width: 1206px) {
+//     .teasers {
+//         .teaser_icon_container .teaser_icon:nth-child(1) {
+//             margin-left: 180px;
+//         }
 
-        .teaser_icon_container .teaser_icon:nth-child(2) {
-            margin-right: 0px;
-        }
-    }
-}
+//         .teaser_icon_container .teaser_icon:nth-child(2) {
+//             margin-right: 180px;
+//         }
+//     }
+// }
+
+// @media (max-width: 898px) {
+//     .teasers {
+//         .teaser_icon_container .teaser_icon:nth-child(1) {
+//             margin-left: 128px;
+//         }
+
+//         .teaser_icon_container .teaser_icon:nth-child(2) {
+//             margin-right: 128px;
+//         }
+//     }
+// }
+
+// @media (max-width: 495px) {
+//     .teasers {
+//         .teaser_icon_container .teaser_icon:nth-child(1) {
+//             margin-left: 0px;
+//         }
+
+//         .teaser_icon_container .teaser_icon:nth-child(2) {
+//             margin-right: 0px;
+//         }
+//     }
+// }
