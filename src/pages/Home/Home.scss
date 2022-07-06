@@ -123,3 +123,13 @@
         }
     }
 }
+
+@media (max-width: 376px) {
+    .home {
+        .home_wrapper {
+            .links {
+                margin-top: 50px;
+            }
+        }
+    }
+}
