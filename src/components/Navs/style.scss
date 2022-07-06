@@ -28,16 +28,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            //   justify-content: center;
+              justify-content: space-between;
             //   border: 1px solid red;
-            height: auto;
+            height: 15%;
+
+            .nav_link {
+                text-decoration: none;
+            }
 
             span {
                 font-size: 2rem;
                 margin-top: 2rem;
-                border-bottom: 2px solid transparent;
+                border-bottom: 2px solid rgb(255, 255, 255);
                 cursor: pointer;
-                text-transform: capitalize;
                 animation-name: links;
                 animation-duration: 3s;
                 animation-iteration-count: infinite;

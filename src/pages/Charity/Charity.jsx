@@ -1,12 +1,14 @@
 import React from "react";
 
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
+import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import "./Charity.scss";
 
 function Charity() {
     return (
         <div className="charity">
+            <HomeButton />
             <SeaDawgMark />
             <CircularHeader heading="CHARITY">
                 <div className="content_first">
