@@ -19,7 +19,7 @@
         .heading_gimmick {
             position: absolute;
             height: 400px;
-            width: 200px;
+            width: 190px;
             background-color: black;
             z-index: -1;
             left: -120px;
@@ -87,6 +87,7 @@
         }
 
         .content {
+            margin-right: 200px;
 
             margin-top: -100px;
             p {
@@ -155,6 +156,14 @@
     }
 }
 
+@media (max-width: 560px) {
+    .main_content {
+        .content {
+            margin-left: -10px;
+        }
+    }
+}
+
 @media (max-width: 495px) {
     .main_content {
         .heading_container {
@@ -176,6 +185,19 @@
     }
 }
 
+@media (max-width: 427px) {
+    .main_content {
+
+        .heading_container {
+            margin-left: -165px;
+        }
+
+        .content {
+            margin-left: 10px;
+        }
+    }
+}
+
 @media (max-width: 376px) {
     .main_content {
         .heading_container {
@@ -190,7 +212,7 @@
             p {
                 width: 260px;
                 font-size: 12px;
-                margin-top: -20px;
+                margin-top: -80px;
                 padding: 0 20px;
             }
         }
