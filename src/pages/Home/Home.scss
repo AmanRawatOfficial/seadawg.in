@@ -120,6 +120,10 @@
     .home {
         .home_wrapper {
             transform: scale(.6);
+
+            .links {
+                margin-top: 50px;
+            }
         }
     }
 }

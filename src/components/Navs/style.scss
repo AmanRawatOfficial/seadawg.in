@@ -28,7 +28,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-              justify-content: space-between;
+            justify-content: space-between;
             //   border: 1px solid red;
             height: 15%;
 
@@ -83,6 +83,8 @@
             }
 
             .links_div {
+                height: 20%;
+
                 span {
                     font-size: 1.6rem;
                 }
