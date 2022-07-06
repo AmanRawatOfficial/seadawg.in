@@ -3,11 +3,13 @@ import React from "react";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa"
+import HomeButton from "../../components/HomeButton/HomeButton"
 import "./Teasers.scss";
 
 function Teasers() {
     return (
         <div className="teasers">
+            <HomeButton />
             <SeaDawgMark />
             <CircularHeader heading="TEASERS">
                 <div className="content_first">

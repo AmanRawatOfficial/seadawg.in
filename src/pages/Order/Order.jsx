@@ -1,5 +1,6 @@
 import React from "react";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
+import HomeButton from "../../components/HomeButton/HomeButton";
 
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import "./Order.scss";
@@ -7,6 +8,7 @@ import "./Order.scss";
 function Order() {
     return (
         <div className="orders">
+            <HomeButton />
             <SeaDawgMark />
             <CircularHeader heading="CORPORATE ORDERS">
                 <div className="content_first">
