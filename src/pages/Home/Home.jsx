@@ -60,7 +60,7 @@ const Home = () => {
                             setOpen(true);
                         }}
                     >
-                        <T text="⅁O⅂ꓭ" />
+                        <T height="100px" text="⅁O⅂ꓭ" />
                     </div>
                     <div
                         className="navs nav_3"
