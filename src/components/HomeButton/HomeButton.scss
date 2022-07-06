@@ -1,7 +1,35 @@
 .home_button {
     font-size: 64px;
-    margin-left: 1440px;
+    margin-left: 50%;
     margin-top: 100px;
     cursor: pointer;
     position: absolute;
+    z-index: 100;
+}
+
+@media (max-width: 1544px) {
+    .home_button {
+        margin-left: 78%;
+    }
+}
+
+@media (max-width: 1206px) {
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 898px) {
+}
+
+@media (max-width: 749px) {
+}
+
+@media (max-width: 495px) {
+}
+
+@media (max-width: 376px) {
 }
