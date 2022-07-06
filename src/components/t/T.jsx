@@ -8,6 +8,9 @@ import styled from 'styled-components'
   const CurvedText = styled.div`
     margin-bottom: ${overlap ? `-${r}px` : '0'};
     width: ${d + offset * 2}px;
+
+    /* Fixed the overlapping issue in home page */
+
     height: ${height === " " ? r + offset : height}px;
     /* border:1px solid red; */
     path {
