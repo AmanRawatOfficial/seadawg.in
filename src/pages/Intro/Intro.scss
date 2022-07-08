@@ -6,7 +6,6 @@
     width: 1240px;
     height: max-content;
     margin-left: 330px;
-    margin-top: 100px;
     margin-bottom: 200px;
     display: flex;
     justify-content: center;
@@ -15,12 +14,12 @@
 
 .comic_stripe_container {
     width: 1120px;
-    height: 3580px;
+    height: 3680px;
     padding-left: 10px;
     padding-top: 10px;
+    margin-top: 80px;
     justify-content: space-around;
     display: grid;
-    margin-top: 200px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr);
 
@@ -59,7 +58,7 @@
 
 @media (max-width: 1084px) {
     .comic_stripe_container {
-        height: 9855px;
+        height: 10100px;
         width: 420px;
         gap: 5px;
         display: flex;
@@ -83,7 +82,7 @@
 
 @media (max-width: 538px) {
     .comic_stripe_container {
-        height: 7930px;
+        height: 8150px;
         width: 340px;
         margin-left: -20px;
         
