@@ -27,9 +27,10 @@ function Order() {
                     Download our updated corporate brochure by clicking below.
                     <br />
                     <br />
-                    <div>
+                    <div className="order_button">
                         <button>DOWNLOAD</button>
                     </div>
+                    <div></div>
                 </div>
             </CircularHeader>
         </div>

@@ -5,35 +5,45 @@
 .comic_container {
     width: 1240px;
     height: max-content;
-    margin-left: 360px;
+    margin-left: 330px;
     margin-top: 100px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .comic_stripe_container {
-    background-color: rgb(174, 174, 174);
-    width: 820px;
-    height: 300px;
+    width: 1120px;
+    height: 3580px;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: space-around;
     display: grid;
     margin-top: 200px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 
     .comic_stripe_element {
-        height: 220px;
-        width: 220px;
+        height: 360px;
+        width: 360px;
         background-color: rgb(255, 255, 255);
-        margin-left: 40px;
-        margin-top: 40px;;
+
+        .comic_stripe_image {
+            height: 360px;
+            width: 360px;
+        }
     }
 }
 
-.comic_stripe_container div:nth-child(3) {
-    margin-right: 40px;
-}
 
 // QUERIES //
+
+@media (max-width: 1669px) {
+    .comic_container {
+        margin-left: 200px;
+    }
+}
 
 @media (max-width: 1599px) {
     .comic_container {
@@ -41,17 +51,73 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1282px) {
+    .comic_container {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1084px) {
     .comic_stripe_container {
-        grid-template-columns: 1fr;
-        height: 820px;
-        width: 300px;
-        margin-bottom: 100px;
-        margin-top: 100px;
-        margin-left: -100px;
+        height: 9855px;
+        width: 420px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
 
         .comic_stripe_element {
-            margin-top: 30px;
+            height: 400px;
+            width: 400px;
+
+            .comic_stripe_image {
+                height: 400px;
+                width: 400px;
+            }
+        }
+
+        .comic_stripe_element:nth-child(3n) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 538px) {
+    .comic_stripe_container {
+        height: 7930px;
+        width: 340px;
+        margin-left: -20px;
+        
+        .comic_stripe_element {
+            height: 320px;
+            width: 320px;
+
+            .comic_stripe_image {
+                height: 320px;
+                width: 320px;
+            }
+        }
+    }
+}
+
+@media (max-width: 438px) {
+    .comic_stripe_container {
+        width: 240px;
+        height: 5460px;
+        margin-left: -60px;
+
+
+        .comic_stripe_element {
+            height: 220px;
+            width: 220px;
+
+            .comic_stripe_image {
+                height: 220px;
+                width: 220px;
+            }
+        }
+
+        .comic_stripe_element:nth-child(3n) {
+            margin-bottom: 40px;
         }
     }
 }

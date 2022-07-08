@@ -14,26 +14,26 @@ const Home = () => {
     // Toggle animation for buttons (teasers, shop)
     function mouseOverFirstHandler() {
         if (firstLink === " " && secondLink === "active_link") {
-            setFirstLink("active_link")
-            setSecondLink(" ")
+            setFirstLink("active_link");
+            setSecondLink(" ");
         }
     }
 
     function mouseOutFirstHandler() {
-        setSecondLink("active_link")
-        setFirstLink(" ")
+        setSecondLink("active_link");
+        setFirstLink(" ");
     }
 
     function mouseOverSecondHandler() {
-       if (firstLink === " " && secondLink === "active_link" ) {
-           setSecondLink(" ")
-           setFirstLink("active_link")
-       }
+        if (firstLink === " " && secondLink === "active_link") {
+            setSecondLink(" ");
+            setFirstLink("active_link");
+        }
     }
 
     function mouseOutSecondHandler() {
-        setFirstLink(" ")
-        setSecondLink("active_link")
+        setFirstLink(" ");
+        setSecondLink("active_link");
     }
 
     return (
@@ -60,7 +60,7 @@ const Home = () => {
                             setOpen(true);
                         }}
                     >
-                        <T height="100px" text="⅁O⅂ꓭ" />
+                        <T height="60px" text="⅁O⅂ꓭ" />
                     </div>
                     <div
                         className="navs nav_3"

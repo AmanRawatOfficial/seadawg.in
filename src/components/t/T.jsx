@@ -22,11 +22,12 @@ import styled from 'styled-components'
     }
     .text{
         color:'red';
+        cursor: pointer;
     }
   `
 
   return (
-    <CurvedText className="curved-text">
+    <CurvedText className="curved-text" >
       <svg viewBox={`0 0 ${d + offset * 2} ${r - offset * 2}`} height={height} >
         <path id="curve" d={`M${offset},${r + offset} A${r},${r} 0 0,1 ${d + offset},${r + offset}`} />
         <text width="500">

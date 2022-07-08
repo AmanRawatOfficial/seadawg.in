@@ -1,14 +1,15 @@
 import React from "react";
-import { AiOutlineHome } from "react-icons/ai";
+import { FaArrowLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 import "./HomeButton.scss";
 
 function HomeButton() {
     const navigate = useNavigate();
+
     return (
-        <div>
-            <AiOutlineHome onClick={() => navigate("/")} className="home_button" fill="#116cb7"/>
+        <div className="home_button_container">
+            <FaArrowLeft onClick={() => navigate("/")} className="home_button" fill="#ffac1c"/>
         </div>
     );
 }

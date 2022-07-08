@@ -22,9 +22,34 @@
         letter-spacing: 4px;
         padding: 10px;
         color: #fbcc00;
-        background-color: rgb(44, 6, 6);
+        background-color: rgba(6, 30, 44, 0.753);
         font-weight: bold;
         cursor: pointer;
         text-align: center;
+    }
+}
+
+@media (max-width: 1850px) {
+    // .orders {
+    //     .content_first {
+            
+    //     }
+    // }
+}
+
+
+@media (max-width: 1469px) {
+    .orders {
+        button {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 1355px) {
+    .orders {
+        button {
+            margin-top: 20px;
+        }
     }
 }

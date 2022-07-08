@@ -12,7 +12,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        
+
         // border: 1px solid red;
         .circle {
             width: 50rem;
@@ -26,7 +26,6 @@
             .navs {
                 position: absolute;
                 font-size: 1.8rem;
-                cursor: pointer;
                 font-weight: 400;
                 font-family: "Roboto Slab", serif;
                 &:hover {
@@ -108,7 +107,7 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
     .home {
         .home_wrapper {
             width: 100%;
@@ -116,13 +115,22 @@
     }
 }
 
+@media (max-width: 630px) {
+    .home {
+        .home_wrapper {
+            transform: scale(0.7);
+        }
+    }
+}
+
 @media (max-width: 495px) {
     .home {
         .home_wrapper {
-            transform: scale(.6);
+            transform: scale(0.6);
 
             .links {
                 margin-top: 50px;
+                width: 500px;
             }
         }
     }
@@ -134,6 +142,14 @@
             .links {
                 margin-top: 50px;
             }
+        }
+    }
+}
+
+@media (max-height: 361px) {
+    .home {
+        .home_wrapper {
+            transform: scale(0.5);
         }
     }
 }

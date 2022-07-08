@@ -16,8 +16,16 @@
         letter-spacing: 4px;
         padding: 10px;
         color: #fbcc00;
-        background-color: rgb(44, 6, 6);
+        background-color: rgba(6, 30, 44, 0.753);
         font-weight: bold;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 1573px) {
+    .charity {
+        .content_first {
+            
+        }
     }
 }
