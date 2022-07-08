@@ -22,3 +22,41 @@
         }
     }
 }
+
+@media (max-width: 1669px) {
+    .shop {
+        .content_first {
+            .shop_icon_container {
+                .shop_icon {
+                    font-size: 24px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1545px) {
+    .shop {
+        .content_first {
+            .shop_icon_container {
+                .shop_icon {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1371px) {
+    .shop {
+        .content_first {
+            .shop_icon_container {
+                .shop_icon {
+                    font-size: 44px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

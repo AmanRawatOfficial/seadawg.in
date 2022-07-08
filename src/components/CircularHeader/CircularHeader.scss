@@ -76,8 +76,24 @@
 
 @media (max-width: 1692px) {
     .main_content {
+
+        .heading_container {
+            top: 100px;
+        }
+
         .content {
             margin-right: 200px;
+            margin-top: 100px;
+        }
+    }
+}
+
+
+@media (max-width: 1590px) {
+    .main_content {
+        .content {
+            height: 430px;
+            margin-top: 100px;
         }
     }
 }
@@ -101,9 +117,8 @@
         .content {
             margin-right: 200px;
             margin-left: 200px;
+            margin-top: -330px;
             height: 450px;
-
-            margin-top: -100px;
             p {
                 .content_first {
                     margin-left: 300px;
@@ -114,13 +129,6 @@
     }
 }
 
-@media (max-width: 1590px) {
-    .main_content {
-        .content {
-            height: 430px;
-        }
-    }
-}
 
 @media (max-width: 1438px) {
     .main_content {
@@ -157,12 +165,14 @@
         .heading_container {
             left: 100px;
             overflow: hidden;
+            top: 90px;
         }
 
         .content {
             margin-right: 0px;
             width: 600px;
             height: 900px;
+            margin-top: -300px;
             p {
                 width: 100%;
                 .content_first {
@@ -180,6 +190,7 @@
 
         .heading_container {
             left: 0px;
+            top: 40px;
 
             transform: scale(.8);
         }
@@ -211,13 +222,14 @@
     .main_content {
         .heading_container {
             left: -50px;
-            top: 150px;
+            top: 20px;
             transform: scale(.6);
         }
         .content {
             margin-left: 50px;
             width: 600px;
             height: 800px;
+            margin-top: -200px;
 
             p {
                 .content_first {
@@ -234,12 +246,13 @@
         width: 420px;
         .heading_container {
             left: -140px;
-            top: 245px;
+            top: 5px;
         }
 
         .content {
             width: 420px;
             height: 950px;
+            margin-top: -300px;
 
             p {
                 margin-top: 260px;
@@ -253,11 +266,11 @@
         width: 360px;
         .heading_container {
             left: -200px;
-            top: 264px;
+            top: 24px;
         }
         .content {
             margin-left: 20px;
-            margin-top: -80px;
+            margin-top: -320px;
             width: 360px;
             height: 1090px;
 
@@ -273,12 +286,12 @@
         width: 280px;
         .heading_container {
             left: -210px;
-            top: 180px;
+            top: 30px;
             transform: scale(.5);
         }
         .content {
             margin-left: 50px;
-            margin-top: -142px;
+            margin-top: -242px;
             width: 280px;
             height: 750px;
 
