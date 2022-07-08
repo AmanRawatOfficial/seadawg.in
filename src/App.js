@@ -8,6 +8,7 @@ import Charity from "./pages/Charity/Charity"
 import Orders from "./pages/Order/Order"
 import Collaboration from "./pages/Collaboration/Collaboration"
 import Teasers from "./pages/Teasers/Teasers"
+import Shop from "./pages/Shop/Shop"
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/collaboration" element={<Collaboration />} />
                 <Route path="/teasers" element={<Teasers />} />
+                <Route path="/shop" element={<Shop />} />
             </Route>
         </Routes>
     )

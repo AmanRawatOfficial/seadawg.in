@@ -75,13 +75,15 @@ const Home = () => {
                 </div>
                 <div className="links">
                     <div className={`link link_first ${firstLink}`}>
-                        <span
-                            onMouseOver={mouseOverFirstHandler}
-                            onMouseOut={mouseOutFirstHandler}
-                            className="link_shop"
-                        >
-                            Shop
-                        </span>
+                        <Link className="link_teaser" to="/shop">
+                            <span
+                                onMouseOver={mouseOverFirstHandler}
+                                onMouseOut={mouseOutFirstHandler}
+                                className="link_shop"
+                            >
+                                Shop
+                            </span>
+                        </Link>
                     </div>
                     <div className={`link link_second ${secondLink}`}>
                         <Link className="link_teaser" to="/teasers">

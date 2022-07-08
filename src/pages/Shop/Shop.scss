@@ -1,0 +1,24 @@
+.shop {
+    display: flex;
+
+    .content_first {
+
+        h3 {
+            color: black;
+            margin-bottom: -30px;
+            margin-top: -20px;
+        }
+
+        .shop_icon_container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .shop_icon {
+                font-size: 44px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}

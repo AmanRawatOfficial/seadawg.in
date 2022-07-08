@@ -8,7 +8,7 @@ function CircularHeader(props) {
             <div className="heading_container">
                 <div className="heading_gimmick"></div>
                 <div className="heading">
-                    <h2>{props.heading}</h2>
+                    <h2 style={{color: `${props.color}`}}>{props.heading}</h2>
                 </div>
             </div>
             <div className="content" style={{height: props.height}}>
