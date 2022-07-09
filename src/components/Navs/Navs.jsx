@@ -14,7 +14,7 @@ const Navs = ({ setOpen, navType }) => {
 
                 <div className="heading">
                     {navType === "story"
-                        ? "Out Story"
+                        ? "Our Story"
                         : navType === "blogs"
                         ? "Blog"
                         : "Get In Touch"}
@@ -23,10 +23,10 @@ const Navs = ({ setOpen, navType }) => {
                     {/* for our story navs */}
                     {navType === "story" && (
                         <>
-                            <Link className="nav_link" to="/intro">
+                            <Link className="nav_link" to="/who">
                                 <span>Who we are (comic strip)</span>
                             </Link>
-                            <Link className="nav_link" to="/aim">
+                            <Link className="nav_link" to="/what">
                                 <span>What we are trying to do</span>
                             </Link>
                             <Link className="nav_link nav_link_charity" to="/charity">
@@ -47,10 +47,10 @@ const Navs = ({ setOpen, navType }) => {
                     {/* for our get in touch  navs */}
                     {navType === "contacts" && (
                         <div className="nav_link_three">
-                            <Link className="nav_link" to="/orders">
+                            <Link className="nav_link" to="/corporate">
                                 <span>Corporate Orders</span>
                             </Link>
-                            <Link className="nav_link" to="/collaboration">
+                            <Link className="nav_link" to="/collaborate">
                                 <span>Collaborate With Us</span>
                             </Link>
                         </div>

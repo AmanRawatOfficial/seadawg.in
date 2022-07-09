@@ -50,7 +50,7 @@ const Home = () => {
                         {/* <img src="images/story.png" alt="" /> */}
                         {/* Our Story */}
                         {/* <T text='yrotS ruO' /> */}
-                        <T text="⅄ꓤOꓕS ꓕՈO" />
+                        <T text="⅄ꓤOꓕS ꓤՈO" />
                     </div>
 
                     <div

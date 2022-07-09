@@ -15,11 +15,11 @@ const App = () => {
         <Routes>
             <Route path='/'>
                 <Route index element={<Home />} />
-                <Route path="/intro" element={<Intro />} />
-                <Route path="/aim" element={<Aim />} />
+                <Route path="/who" element={<Intro />} />
+                <Route path="/what" element={<Aim />} />
                 <Route path="/charity" element={<Charity />} />
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/collaboration" element={<Collaboration />} />
+                <Route path="/corporate" element={<Orders />} />
+                <Route path="/collaborate" element={<Collaboration />} />
                 <Route path="/teasers" element={<Teasers />} />
                 <Route path="/shop" element={<Shop />} />
             </Route>

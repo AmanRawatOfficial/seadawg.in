@@ -4,9 +4,11 @@ import "./Aim.scss";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 // import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import HomeButton from "../../components/HomeButton/HomeButton";
+import Footer from "../../components/Footer/Footer";
 
 function Aim() {
     return (
+        <>
         <div className="aim">
             <HomeButton className="aim_home_button" />
             <SeaDawgMark />
@@ -106,6 +108,8 @@ function Aim() {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     );
 }
 

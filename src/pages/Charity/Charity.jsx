@@ -1,12 +1,14 @@
 import React from "react";
 
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
+import Footer from "../../components/Footer/Footer";
 import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import "./Charity.scss";
 
 function Charity() {
     return (
+        <>
         <div className="charity">
             <HomeButton />
             <SeaDawgMark />
@@ -33,6 +35,8 @@ function Charity() {
                 </div>
             </CircularHeader>
         </div>
+        <Footer />
+        </>
     );
 }
 

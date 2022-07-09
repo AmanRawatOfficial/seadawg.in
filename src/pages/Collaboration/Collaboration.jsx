@@ -4,9 +4,11 @@ import "./Collaboration.scss";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import HomeButton from "../../components/HomeButton/HomeButton"
+import Footer from "../../components/Footer/Footer";
 
 function Collaboration() {
     return (
+        <>
         <div className="collaboration">
             <HomeButton />
             <SeaDawgMark />
@@ -30,6 +32,8 @@ function Collaboration() {
                 </div>
             </CircularHeader>
         </div>
+        <Footer />
+        </>
     );
 }
 
