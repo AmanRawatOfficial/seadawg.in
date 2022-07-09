@@ -7,33 +7,33 @@ import "./Home.scss";
 const Home = () => {
     const [open, setOpen] = useState(false);
     const [navType, setNavType] = useState("");
-    const [firstLink, setFirstLink] = useState(" ");
-    const [secondLink, setSecondLink] = useState("active_link");
+    const [firstLink, setFirstLink] = useState("active_link");
+    const [secondLink, setSecondLink] = useState(" ");
     // const nav1 = ['o', 'u', 'r', ' ', 's', 't', 'o', 'r', 'y']
 
     // Toggle animation for buttons (teasers, shop)
     function mouseOverFirstHandler() {
-        if (firstLink === " " && secondLink === "active_link") {
-            setFirstLink("active_link");
-            setSecondLink(" ");
+        if (firstLink === "active_link" && secondLink === " ") {
+            setFirstLink(" ");
+            setSecondLink("active_link");
         }
     }
 
     function mouseOutFirstHandler() {
-        setSecondLink("active_link");
-        setFirstLink(" ");
+        setSecondLink(" ");
+        setFirstLink("active_link");
     }
 
     function mouseOverSecondHandler() {
-        if (firstLink === " " && secondLink === "active_link") {
-            setSecondLink(" ");
-            setFirstLink("active_link");
+        if (firstLink === "active_link" && secondLink === " ") {
+            setSecondLink("active_link");
+            setFirstLink(" ");
         }
     }
 
     function mouseOutSecondHandler() {
-        setFirstLink(" ");
-        setSecondLink("active_link");
+        setFirstLink("active_link");
+        setSecondLink(" ");
     }
 
     return (
@@ -50,7 +50,7 @@ const Home = () => {
                         {/* <img src="images/story.png" alt="" /> */}
                         {/* Our Story */}
                         {/* <T text='yrotS ruO' /> */}
-                        <T text="⅄ꓤOꓕS ꓤՈO" />
+                        <T text="⅄ꓤOꓕS ꓕՈO" />
                     </div>
 
                     <div

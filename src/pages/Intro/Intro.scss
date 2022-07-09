@@ -38,6 +38,12 @@
 
 // QUERIES //
 
+@media (min-width: 2000px) {
+    .comic_container {
+        margin-left: 550px;
+    }
+}
+
 @media (max-width: 1669px) {
     .comic_container {
         margin-left: 200px;
@@ -101,7 +107,7 @@
 @media (max-width: 438px) {
     .comic_stripe_container {
         width: 240px;
-        height: 5320px;
+        height: 5920px;
         margin-left: -60px;
 
 

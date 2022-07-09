@@ -1,12 +1,16 @@
 .orders {
     display: flex;
 
-    .highlight_yellow {
-        color: #fbcc00;
-        font-weight: bold;
-    }
-
     .content_first {
+        .highlight_yellow {
+            font-weight: bold;
+    
+            a {
+                color: #fbcc00;
+                text-decoration: none;
+            }
+        }
+
         div {
             width: 100%;
             display: flex;
@@ -21,6 +25,7 @@
         width: 164px;
         letter-spacing: 4px;
         padding: 10px;
+        margin-top: 20px;
         color: #fbcc00;
         background-color: rgba(6, 30, 44, 0.753);
         font-weight: bold;
@@ -35,6 +40,14 @@
             
     //     }
     // }
+}
+
+@media (max-width: 1669px) {
+    .orders {
+        button {
+            margin-top: 0px;
+        }
+    }
 }
 
 

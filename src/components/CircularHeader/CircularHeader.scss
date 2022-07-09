@@ -51,7 +51,6 @@
         height: 430px;
 
         p {
-            margin-top: 10px;
             font-size: 1.8rem;
             color: black;
             padding: 0 60px;
@@ -73,6 +72,17 @@
 }
 
 // Queries //
+@media (min-width: 2000px) {
+    .main_content {
+        .content {
+            p {
+                .content_first {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 1692px) {
     .main_content {

@@ -13,7 +13,7 @@ function Shop() {
             <SeaDawgMark />
             <CircularHeader color="#fbcc00" heading="COMING SOON!">
                 <div className="content_first">
-                    <h3>HEAVE TIGHT,AND MAKE FAST!</h3>
+                    <h3>HEAVE TIGHT, AND MAKE FAST!</h3>
                     <br />
                     <br />
                     Watch this space for our upcoming Pre-Launch limited stock

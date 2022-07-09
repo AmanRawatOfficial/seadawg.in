@@ -17,8 +17,8 @@ function Collaboration() {
                     <br />
                     <br />
                     If you think you can add value to our products with your
-                    designs, think of some stuff up and let us know at
-                    <span className="highlight_yellow"> collaborate@seadawg.in</span>
+                    designs, think of some stuff up and let us know at {" "}
+                    <span className="highlight_yellow"><a href="mailto:collaborate@seadawg.in">{" "}collaborate@seadawg.in</a></span>
                     <br />
                     <br />
                     Bear in mind your suggestions have to be in line with our

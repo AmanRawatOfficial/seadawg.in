@@ -14,7 +14,7 @@ function Order() {
                 <div className="content_first">
                     If you are a company/ supplier looking for a bulk order,
                     please contact us at{" "}
-                    <span className="highlight_yellow">corporate@dawg.in</span>{" "}
+                    <span className="highlight_yellow"><a href="mailto:corporate@seadawg.in">corporate@dawg.in</a></span>{" "}
                     with the subject “bulk order enquiry”.
                     <br />
                     <br />

@@ -9,7 +9,7 @@ function HomeButton() {
 
     return (
         <div className="home_button_container">
-            <FaArrowLeft onClick={() => navigate("/")} className="home_button" fill="#ffac1c"/>
+            <FaArrowLeft onClick={() => navigate("/")} className="home_button" fill="#fbcc00"/>
         </div>
     );
 }

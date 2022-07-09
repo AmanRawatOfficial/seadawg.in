@@ -12,7 +12,13 @@ const Navs = ({ setOpen, navType }) => {
                     onClick={() => setOpen(false)}
                 />
 
-                <div className="heading">{navType === "story" ? "Out Story" : navType === "blogs" ? "Blogs" : "Get In Touch"}</div>
+                <div className="heading">
+                    {navType === "story"
+                        ? "Out Story"
+                        : navType === "blogs"
+                        ? "Blog"
+                        : "Get In Touch"}
+                </div>
                 <div className="links_div">
                     {/* for our story navs */}
                     {navType === "story" && (
@@ -21,7 +27,10 @@ const Navs = ({ setOpen, navType }) => {
                                 <span>Who we are (comic strip)</span>
                             </Link>
                             <Link className="nav_link" to="/aim">
-                                <span>what we are trying to do</span>
+                                <span>What we are trying to do</span>
+                            </Link>
+                            <Link className="nav_link nav_link_charity" to="/charity">
+                                <span>Charity</span>
                             </Link>
                         </>
                     )}
@@ -29,22 +38,22 @@ const Navs = ({ setOpen, navType }) => {
                     {/* for our blags navs */}
                     {navType === "blogs" && (
                         <>
-                            <Link className="nav_link" to="/charity">
-                                <span>Charity</span>
+                            <Link className="nav_link" to="/">
+                                <span>Click here to read or to contribute to our Blog</span>
                             </Link>
                         </>
                     )}
 
                     {/* for our get in touch  navs */}
                     {navType === "contacts" && (
-                        <>
+                        <div className="nav_link_three">
                             <Link className="nav_link" to="/orders">
                                 <span>Corporate Orders</span>
                             </Link>
                             <Link className="nav_link" to="/collaboration">
                                 <span>Collaborate With Us</span>
                             </Link>
-                        </>
+                        </div>
                     )}
                 </div>
             </div>
