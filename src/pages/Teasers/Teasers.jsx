@@ -27,14 +27,24 @@ function Teasers() {
                         <br />
                         <br />
                         <div className="teaser_icon_container">
-                            <FaFacebookSquare
-                                fill="#fbcc00"
-                                className="teaser_icon"
-                            />
-                            <FaInstagramSquare
-                                fill="#fbcc00"
-                                className="teaser_icon"
-                            />
+                            <a
+                                href="https://facebook.com/dawgdotin"
+                                target="_blank"
+                            >
+                                <FaFacebookSquare
+                                    fill="#fbcc00"
+                                    className="teaser_icon"
+                                />
+                            </a>
+                            <a
+                                href="https://instagram.com/dawgdotin"
+                                target="_blank"
+                            >
+                                <FaInstagramSquare
+                                    fill="#fbcc00"
+                                    className="teaser_icon"
+                                />
+                            </a>
                         </div>
                     </div>
                 </CircularHeader>
