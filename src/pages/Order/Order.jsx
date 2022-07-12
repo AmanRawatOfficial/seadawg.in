@@ -6,6 +6,11 @@ import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import Footer from "../../components/Footer/Footer";
 import "./Order.scss";
 
+useEffect(() => {
+    document.title = "dawgdotin | Corporate";
+})
+
+
 function Order() {
     return (
         <>

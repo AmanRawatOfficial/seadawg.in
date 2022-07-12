@@ -6,6 +6,11 @@ import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import HomeButton from "../../components/HomeButton/HomeButton";
 import Footer from "../../components/Footer/Footer";
 
+useEffect(() => {
+    document.title = "dawgdotin | What We're Trying to do";
+})
+
+
 function Aim() {
     return (
         <>

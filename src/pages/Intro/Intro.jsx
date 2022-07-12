@@ -5,6 +5,11 @@ import HomeButton from "../../components/HomeButton/HomeButton";
 import "./Intro.scss";
 import Footer from "../../components/Footer/Footer";
 
+useEffect(() => {
+    document.title = "dawgdotin | Who We Are";
+})
+
+
 function Intro() {
     const imageArray = [
         "a_1",

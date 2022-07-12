@@ -6,6 +6,11 @@ import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 
+useEffect(() => {
+    document.title = "dawgdotin | Shop";
+})
+
+
 function Shop() {
     return (
         <div className="shop">

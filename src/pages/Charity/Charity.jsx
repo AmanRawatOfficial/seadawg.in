@@ -6,6 +6,11 @@ import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import "./Charity.scss";
 
+useEffect(() => {
+    document.title = "dawgdotin | Charity";
+})
+
+
 function Charity() {
     return (
         <>

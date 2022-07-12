@@ -6,6 +6,11 @@ import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import HomeButton from "../../components/HomeButton/HomeButton";
 import "./Teasers.scss";
 import Footer from "../../components/Footer/Footer";
+import { useEffect } from "react";
+
+useEffect(() => {
+    document.title = "dawgdotin | Teasers";
+})
 
 function Teasers() {
     return (
