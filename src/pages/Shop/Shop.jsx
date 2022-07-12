@@ -31,14 +31,18 @@ function Shop() {
                     Also follow us on social media to stay abreast with us at
                     all times.
                     <div className="shop_icon_container">
-                        <FaFacebookSquare
-                            fill="#fbcc00"
-                            className="shop_icon"
-                        />
-                        <FaInstagramSquare
-                            fill="#fbcc00"
-                            className="shop_icon"
-                        />
+                        <a href="https://facebook.com/dawgdotin" target="_blank" rel="noreferrer">
+                            <FaFacebookSquare
+                                fill="#fbcc00"
+                                className="shop_icon"
+                            />
+                        </a>
+                        <a href="https://instagram.com/dawgdotin" target="_blank" rel="noreferrer">
+                            <FaInstagramSquare
+                                fill="#fbcc00"
+                                className="shop_icon"
+                            />
+                        </a>
                     </div>
                 </div>
             </CircularHeader>

@@ -30,6 +30,7 @@ function Teasers() {
                             <a
                                 href="https://facebook.com/dawgdotin"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FaFacebookSquare
                                     fill="#fbcc00"
@@ -39,6 +40,7 @@ function Teasers() {
                             <a
                                 href="https://instagram.com/dawgdotin"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FaInstagramSquare
                                     fill="#fbcc00"
