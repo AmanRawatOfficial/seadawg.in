@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 
 import "./Aim.scss";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
@@ -6,12 +6,12 @@ import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import HomeButton from "../../components/HomeButton/HomeButton";
 import Footer from "../../components/Footer/Footer";
 
-useEffect(() => {
-    document.title = "dawgdotin | What We're Trying to do";
-})
 
 
 function Aim() {
+    useEffect(() => {
+        document.title = "dawg.in | What We're Trying to do";
+    })
     return (
         <>
         <div className="aim">

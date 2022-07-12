@@ -8,11 +8,11 @@ import "./Teasers.scss";
 import Footer from "../../components/Footer/Footer";
 import { useEffect } from "react";
 
-useEffect(() => {
-    document.title = "dawgdotin | Teasers";
-})
 
 function Teasers() {
+    useEffect(() => {
+        document.title = "dawg.in | Teasers";
+    })
     return (
         <>
             <div className="teasers">

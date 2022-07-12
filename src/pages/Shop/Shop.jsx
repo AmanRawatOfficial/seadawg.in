@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import "./Shop.scss";
@@ -6,12 +6,12 @@ import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 
-useEffect(() => {
-    document.title = "dawgdotin | Shop";
-})
 
 
 function Shop() {
+    useEffect(() => {
+        document.title = "dawg.in | Shop";
+    })
     return (
         <div className="shop">
             <HomeButton />

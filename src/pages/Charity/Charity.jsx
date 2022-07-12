@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import Footer from "../../components/Footer/Footer";
@@ -6,12 +6,12 @@ import HomeButton from "../../components/HomeButton/HomeButton";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import "./Charity.scss";
 
-useEffect(() => {
-    document.title = "dawgdotin | Charity";
-})
 
 
 function Charity() {
+    useEffect(() => {
+        document.title = "dawg.in | Charity";
+    })
     return (
         <>
         <div className="charity">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import HomeButton from "../../components/HomeButton/HomeButton";
@@ -6,12 +6,12 @@ import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import Footer from "../../components/Footer/Footer";
 import "./Order.scss";
 
-useEffect(() => {
-    document.title = "dawgdotin | Corporate";
-})
 
 
 function Order() {
+    useEffect(() => {
+        document.title = "dawg.in | Corporate";
+    })
     return (
         <>
             <div className="orders">

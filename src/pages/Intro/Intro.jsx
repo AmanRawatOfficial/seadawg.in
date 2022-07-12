@@ -1,16 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
 import HomeButton from "../../components/HomeButton/HomeButton";
 import "./Intro.scss";
 import Footer from "../../components/Footer/Footer";
 
-useEffect(() => {
-    document.title = "dawgdotin | Who We Are";
-})
-
 
 function Intro() {
+    useEffect(() => {
+        document.title = "dawg.in | Who We Are";
+    })
+    
     const imageArray = [
         "a_1",
         "a_2",
@@ -37,7 +37,7 @@ function Intro() {
         "h_2",
         "h_3",
     ];
-
+    
     const Images = imageArray.map((item) => {
         return (
             <div key={item} className="comic_stripe_element">
@@ -45,11 +45,11 @@ function Intro() {
                     className="comic_stripe_image"
                     src={require(`../../images/Comic_stripe/${item}.png`)}
                     alt="Block of comic stripe"
-                />
+                    />
             </div>
         );
     });
-
+    
     return (
         <>
             <div className="intro">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import "./Collaboration.scss";
 import SeaDawgMark from "../../components/SeaDawgMark/SeaDawgMark";
@@ -6,12 +6,12 @@ import CircularHeader from "../../components/CircularHeader/CircularHeader";
 import HomeButton from "../../components/HomeButton/HomeButton"
 import Footer from "../../components/Footer/Footer";
 
-useEffect(() => {
-    document.title = "dawg.in | Collaborate";
-})
 
 
 function Collaboration() {
+    useEffect(() => {
+        document.title = "dawg.in | Collaborate";
+    })
     return (
         <>
         <div className="collaboration">
